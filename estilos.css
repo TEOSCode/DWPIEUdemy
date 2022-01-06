@@ -1,0 +1,255 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.contenedor {
+  width: 90%;
+  max-width: 1280px;
+  margin: auto;
+}
+header {
+  background-image: url(imagenes/ondas.png),
+    linear-gradient(237deg, #46b3ff 0%, #0752fe 100%);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  height: 850px;
+}
+.menu {
+  background: white;
+  padding: 9px 20px;
+}
+.menu .contenedor {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .logo {
+  color: #000;
+  font-size: 23px;
+  font-weight: bold;
+}
+nav ul li {
+  display: inline-block;
+  margin: 0 15px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+header .contenedor-inicio {
+  display: flex;
+  justify-content: center;
+  margin: 1.5vh 0;
+}
+header .titular,
+header .imagen {
+  width: 40%;
+}
+header h1 {
+  font-size: 52px;
+  color: #fff;
+  text-shadow: 1px 2px 50px #000;
+}
+header p {
+  color: #fff;
+  line-height: 30px;
+}
+header img {
+  width: 100%;
+}
+.boton {
+  background: #253547;
+  color: #fff;
+  text-decoration: none;
+  padding: 15px 30px;
+  border-radius: 5px;
+  font-size: 14px;
+  box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.2);
+  margin-top: 20px;
+  display: inline-block;
+}
+/*Main content*/
+.dominios {
+  display: flex;
+}
+.dominios li {
+  list-style: none;
+  margin: 0 20px;
+}
+span.punto {
+  color: #1776ff;
+  font-size: 24px;
+}
+span.dominio {
+  color: #000;
+  font-size: 24px;
+  font-weight: bold;
+}
+span.anio {
+  color: #999;
+  font-size: 14px;
+}
+
+/*Seccion Servicios*/
+#services {
+  padding-top: 120px;
+}
+#services .contenedor {
+  display: flex;
+  justify-content: space-around;
+}
+#services .titular {
+  width: 40%;
+}
+#services .service {
+  width: 25%;
+  background-color: white;
+  box-shadow: 0px 90px 160px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 24px;
+  padding: 20px 30px;
+}
+#services h2,
+#pricing h2 {
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #ff8f00;
+  letter-spacing: 1px;
+}
+#services h3,
+#pricing h3 {
+  font-weight: 500;
+  font-size: 30px;
+}
+#services .boton {
+  background: #2970fa;
+  padding: 15px 38px;
+  letter-spacing: 1px;
+}
+
+.service h4 {
+  font-size: 23px;
+  font-weight: normal;
+}
+.service p {
+  color: #787878;
+  font-size: 15px;
+  line-height: 32px;
+  text-align: justify;
+}
+.service a {
+  color: #2970fa;
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-size: 13px;
+}
+.contenedor-services-2 {
+  margin-top: 60px;
+}
+/*mover el servicio arriba
+.contenedor-services-2 #dos {
+  position: relative;
+  top: -250px;
+}*/
+
+/*Seccion de precios*/
+#pricing {
+  padding-top: 90px;
+}
+#pricing h2,
+#pricing h3 {
+  text-align: center;
+  margin: 0;
+}
+#pricing h3 {
+  font-weight: bold;
+}
+.contenedor-precios {
+  display: flex;
+  justify-content: space-around;
+}
+#pricing .tabla {
+  background: #fff;
+  border-radius: 24px;
+  box-shadow: 0px 90px 160px 0px rgba(69, 143, 177, 0.2);
+  padding: 20px 50px;
+}
+#pricing ul {
+  padding: 0;
+}
+#pricing .tabla li:nth-child(1) {
+  list-style-type: none;
+  color: #ff8f00;
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: -21px;
+}
+#pricing .tabla li:nth-child(2) {
+  list-style: none;
+  margin-bottom: 40px;
+  margin-left: -21px;
+}
+#pricing .tabla .peso {
+  position: absolute;
+  color: #999;
+  font-size: 18px;
+}
+#pricing .tabla .precio {
+  font-weight: bold;
+  font-size: 50px;
+  margin-left: 14px;
+}
+#pricing .tabla .mes {
+  color: #999;
+}
+#pricing .item {
+  margin-bottom: 27px;
+}
+#pricing .item span {
+  color: #666;
+}
+#pricing #one .item {
+  color: #ff8f00;
+}
+#pricing #two .item {
+  color: #296ffa;
+}
+#pricing #three .item {
+  color: #2acf80;
+}
+#pricing #one a {
+  color: #ff8f00;
+  background: rgba(255, 143, 0, 0.1);
+}
+#pricing #two a {
+  color: #fff;
+  background: #296ffa;
+}
+#pricing #three a {
+  color: #2acf80;
+  background: rgba(41, 207, 141, 0.1);
+}
+#pricing #two li:nth-child(1) {
+  color: #296ffa;
+}
+#pricing #three li:nth-child(1) {
+  color: #2acf80;
+}
+#pricing .hidden span {
+  color: #ccc;
+}
+#pricing .tabla {
+  position: relative;
+}
+#pricing .tabla .get-button {
+  text-align: center;
+}
+#pricing hr {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 151px;
+  border-color: #2423231e;
+}
