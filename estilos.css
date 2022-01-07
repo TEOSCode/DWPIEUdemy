@@ -10,6 +10,7 @@ body {
   margin: auto;
 }
 header {
+  background-size: contain;
   background-image: url(imagenes/ondas.png),
     linear-gradient(237deg, #46b3ff 0%, #0752fe 100%);
   background-repeat: no-repeat;
@@ -41,7 +42,7 @@ nav ul li a {
 header .contenedor-inicio {
   display: flex;
   justify-content: center;
-  margin: 1.5vh 0;
+  margin: 9vh 0;
 }
 header .titular,
 header .imagen {
@@ -111,7 +112,8 @@ span.anio {
   padding: 20px 30px;
 }
 #services h2,
-#pricing h2 {
+#pricing h2,
+#file h2 {
   font-weight: 500;
   text-transform: uppercase;
   font-size: 14px;
@@ -119,7 +121,8 @@ span.anio {
   letter-spacing: 1px;
 }
 #services h3,
-#pricing h3 {
+#pricing h3,
+#file h3 {
   font-weight: 500;
   font-size: 30px;
 }
@@ -252,4 +255,119 @@ span.anio {
   left: 0;
   top: 151px;
   border-color: #2423231e;
+}
+/*Seccion Features*/
+#features {
+  padding-top: 90px;
+}
+#features h2 {
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #ff8f00;
+  letter-spacing: 1px;
+}
+#features h3 {
+  font-weight: bold;
+  font-size: 38px;
+  margin: 0;
+}
+#features p {
+  color: #666;
+  line-height: 30px;
+}
+#features .contenedor {
+  display: flex;
+  justify-content: center;
+  max-width: 1100px;
+  padding-bottom: 40px;
+}
+#features .titular {
+  width: 40%;
+  margin-right: 77px;
+}
+#features .imagen {
+  width: 49%;
+}
+#features .imagen img {
+  width: 100%;
+}
+.contenedor-features-2 {
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid #cccccc6b;
+  padding-top: 40px;
+}
+.features-1,
+.features-2 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.feature {
+  width: 30%;
+  margin: auto;
+  text-align: justify;
+}
+.feature ul {
+  display: flex;
+  padding: 0;
+  list-style: none;
+}
+.feature li:nth-child(2) {
+  margin-left: 20px;
+  color: #666;
+  font-size: 14px;
+  line-height: 30px;
+}
+/*Seccion File*/
+#file {
+  padding-top: 90px;
+}
+#file .contenedor {
+  display: flex;
+  justify-content: center;
+}
+#file .iconos .icono {
+  margin-right: 15px;
+}
+#file .iconos h4,
+#file .iconos p {
+  margin: 0;
+}
+#file .iconos h4 {
+  font-weight: bold;
+}
+#file .iconos p {
+  margin-top: 10px;
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 30px;
+  line-height: 30px;
+}
+#file .item {
+  display: flex;
+}
+#file .titular {
+  width: 47%;
+  margin-right: 5.5%;
+}
+#file .imagen {
+  width: 42%;
+}
+#file .imagen img {
+  width: 100%;
+}
+#file .boton {
+  background: #296ffa;
+  padding: 15px 40px;
+  letter-spacing: 1px;
+}
+#file .titular-inner {
+  margin-bottom: 5.82%;
+}
+#file h3 {
+  font-weight: bold;
+  font-size: 38px;
+  margin: 0;
+  width: 78%;
 }
