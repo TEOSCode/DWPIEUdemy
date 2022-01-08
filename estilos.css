@@ -371,3 +371,26 @@ span.anio {
   margin: 0;
   width: 78%;
 }
+/*Seccion expert*/
+#expert {
+  padding: 147px;
+  background-size: 1521px 975px;
+  background-position: 50% 50%;
+  background-image: url(imagenes/expert4.png),
+    linear-gradient(150deg, #ffba61 0%, #ffe970 100%) !important;
+  text-shadow: 0em 0.1em 2em rgb(0 0 0 / 40%);
+  text-align: center;
+  background-repeat: no-repeat;
+}
+#expert h2 {
+  font-size: 52px;
+  color: #fff;
+}
+#expert p {
+  color: #fff;
+  margin-top: 30px;
+}
+#expert .boton {
+  padding: 15px 50px;
+  letter-spacing: 1px;
+}
